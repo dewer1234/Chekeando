@@ -1,21 +1,138 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
 body {
   margin: 0;
   font-family: "Roboto", "Helvetica Neue", "Helvetica",  "Arial", sans-serif;
 }
+
+
 .fantasy{
   font-family: fantasy, fantasy;
   font-size: 100px;
-  color: red;
-  margin-left: 37%;
+  color: midnightblue;
+  margin-left: 33%;
   margin-top:-5%;
 }
 
+.animals {
+  font-family: 'The Girl Next Door', cursive;
+  font-size: 100px;
+  color: green;
+  margin-left: 35%;
+  margin-top:-5%;
+
+}
+
+.numeros{
+   font-family: 'The Girl Next Door', cursive;
+  font-size: 100px;
+  color: darkgreen;
+  margin-left: 38%;
+  margin-top:-5%;
+
+}   
+
+.uno-cont{
+ margin-left: 15%;
+ margin-top: -10%;    
+}
+
+.dos-cont{
+ margin-left: 45%;
+ margin-top: -19%;
+}
+
+.tres-cont{
+  margin-left: 70%;
+ margin-top: -20%;
+}
+
+
+
+.frases{
+   font-family: 'The Girl Next Door', cursive;
+  font-size: 100px;
+  color: teal;
+  margin-left: 28%;
+  margin-top:-5%;
+
+}   
+
+.hola-cont{
+ margin-left: 8%;
+ margin-top: -10%;    
+}
+
+.adios-cont{
+ margin-left: 30%;
+ margin-top: -19%;
+}
+
+.como-cont{
+  margin-left: 53%;
+ margin-top: -18%;
+}
+
+
+.bien-cont{
+ margin-left: 75%;
+ margin-top: -20%;
+}
+
+.comida{
+   font-family: 'The Girl Next Door', cursive;
+  font-size: 100px;
+  color: orange;
+  margin-left: 35%;
+  margin-top:-5%;
+
+}   
+
+.ham-cont{
+ margin-left: 10%;
+ margin-top: -10%;    
+}
+
+.hot-cont{
+ margin-left: 33%;
+ margin-top: -15%;
+}
+
+.man-cont{
+  margin-left: 53%;
+ margin-top: -18%;
+}
+
+
+.agua-cont{
+ margin-left: 75%;
+ margin-top: -20%;
+}
+.img1-cont{
+ margin-left: 10%;
+ margin-top: -10%;
+}
+
+.img2-cont{
+ margin-left: 33%;
+ margin-top: -20%;
+}
+
+.img3-cont{
+  margin-left: 53%;
+ margin-top: -18%;
+}
+
+
+.img4-cont{
+ margin-left: 75%;
+ margin-top: -20%;
+}
 .fantasy2{
   font-family: fantasy, fantasy;
   font-size: 100px;
-  color: red;
-  margin-left: 33%;
+  color: darkorange;
+  margin-left: 29%;
   margin-top:-5%;
 }
 .categorias{
@@ -117,7 +234,7 @@ margin-bottom: -4%;
 .site-footer
 {
     height: 10vh;
-  background-color:#26272b;
+  background-image: "images/back.jpg";
   font-size:15px;
   line-height:24px;
   color:#737373;
@@ -208,5 +325,7 @@ margin-bottom: -4%;
     text-align:center
   }
 }
+
+
 
 }
