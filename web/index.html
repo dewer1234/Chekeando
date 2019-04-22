@@ -22,7 +22,7 @@ and open the template in the editor.
 
 <div class="brush"><p>"Abre tu puerta al mundo checo"</p></div>
 
-<button class="button" onclick="window.location.href='seleccion.html'">INICIAR EL JUEGO</button>
+<button  class="button" onmouseover="play()" onclick="window.location.href='seleccion.html'">INICIAR EL JUEGO</button>
 <button class="button2 " onclick="window.location.href='tutorial.html'">VER EL TUTORIAL</button>    
   <!-- Site footer -->
     <footer class="site-footer">
@@ -31,7 +31,7 @@ and open the template in the editor.
         <div class="row">
           <div class="col-md-8 col-sm-6 col-xs-12">
             <p class="copyright-text">&copy; 2019 
-         <a href="#">Chekeando</a>.
+         <a id="audio" onmouseover="play()" href="#">Chekeando</a>.
             </p>
           </div>
 
@@ -45,6 +45,15 @@ and open the template in the editor.
 <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
 <script src="js/index.js"></script>
 <script src="js/custom.js"></script>
+<audio id="audio1" src="audio/Como estas.ogg" ></audio>
+    <script> 
+  document.getElementoById("audio").onmouseover = function(){play()};      
+  function play(){
+       var audio = document.getElementById("audio1");
+       audio.play();
+                 }
+   </script>
+
 
 </body>
 </html>
