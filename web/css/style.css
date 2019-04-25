@@ -1,5 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto);
-@import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
+
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Maven+Pro');
+
 body {
   margin: 0;
   font-family: "Roboto", "Helvetica Neue", "Helvetica",  "Arial", sans-serif;
@@ -30,11 +31,11 @@ body {
   margin-left: 38%;
   margin-top:-5%;
 
-}   
+}
 
 .uno-cont{
  margin-left: 15%;
- margin-top: -10%;    
+ margin-top: -10%;
 }
 
 .dos-cont{
@@ -56,11 +57,11 @@ body {
   margin-left: 28%;
   margin-top:-5%;
 
-}   
+}
 
 .hola-cont{
  margin-left: 8%;
- margin-top: -10%;    
+ margin-top: -10%;
 }
 
 .adios-cont{
@@ -86,11 +87,11 @@ body {
   margin-left: 35%;
   margin-top:-5%;
 
-}   
+}
 
 .ham-cont{
  margin-left: 10%;
- margin-top: -10%;    
+ margin-top: -10%;
 }
 
 .hot-cont{
@@ -156,7 +157,7 @@ margin-bottom: -4%;
   opacity: 0.9;
 }
 .button {
-  position: relative; 
+  position: relative;
   background-color: #0000CD;
   border: none;
   color: white;
@@ -175,7 +176,7 @@ margin-bottom: -4%;
 
 
 .button2 {
-  position: relative; 
+  position: relative;
   background-color: #0000CD;
   border: none;
   color: white;
@@ -195,7 +196,7 @@ margin-bottom: -4%;
 
 
 .button3 {
-  position: relative; 
+  position: relative;
   background-color: #0000CD;
   border: none;
   color: white;
@@ -215,7 +216,7 @@ margin-bottom: -4%;
 
 
 .buttonInicio{
-  position: relative; 
+  position: relative;
   background-color: #0000CD;
   border: none;
   color: white;
@@ -333,7 +334,13 @@ margin-bottom: -4%;
   margin-top:-3%;
 }
 
-
+h1{
+  text-align: center;
+  color: navy;
+  size: 50px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 65px;
+}
 
 
 }
