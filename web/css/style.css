@@ -156,6 +156,17 @@ margin-bottom: -4%;
   right: -50%;
   opacity: 0.9;
 }
+.avatar{
+  width: 400px;
+  height: 410px;
+  margin: 10px auto;
+  position: relative;
+  margin-top: -20%;
+  margin-bottom: -4px;
+  left: 65%;
+  right: -50%;
+  opacity: 1;
+}
 .button {
   position: relative;
   background-color: #0000CD;
@@ -235,11 +246,10 @@ margin-bottom: -4%;
 .site-footer
 {
     height: 10vh;
-  background-image: "images/back.jpg";
+  background-color:black;
   font-size:15px;
   line-height:24px;
   color:#737373;
-  buttom:0%;
   opacity:0.9;
 }
 .site-footer hr
