@@ -16,126 +16,127 @@ and open the template in the editor.
       <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <style>
-        body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+        body,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+        h1{  font-family: "fantasy", fantasy;   font-size: 80px;}
       </style>
     </head>
 <body class="w3-light-grey w3-content" style="max-width:1600px" background="images/lion4.jpg">
-
-<!-- Overlay effect when opening sidebar on small screens -->
-<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
-
-<!-- !PAGE CONTENT! -->
-<div class="w3-main">
-
-  <!-- Header -->
-  <header id="Categorias">
-    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
-    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
-    <div class="w3-container">
-    <h1><b>Categorías</b></h1>
-  </header>
-
-  <!-- First Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-        <img src="images/animales.png" alt="Algo" style="height:300px" class="w3-hover-opacity" onmouseover="play2()">
-      <div class="w3-container w3-white">
-        <p><b>Animales (Zvířata)</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <button onmouseover="play2()" class="w3-button w3-teal w3-padding-large w3-hover-black" onclick="window.location.href='animales.html'"> Entrar</button>
-      </div>
-    </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/numerps.png" alt="Algo" style="height:300px" class="w3-hover-opacity" onmouseover="play7()">
-      <div class="w3-container w3-white">
-        <p><b>Numeros (Čísla)</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <button onmouseover="play7()" class="w3-button w3-teal w3-padding-large w3-hover-black" onclick="window.location.href='numeros.html'"> Entrar</button>
-      </div>
-    </div>
-    <div class="w3-third w3-container">
-      <img src="images/frases.png" alt="Algo" style="height:300px" class="w3-hover-opacity" onmouseover="play5()">
-      <div class="w3-container w3-white">
-        <p><b>Frases Típicas (Typické fráze)</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <button onmouseover="play5()" class="w3-button w3-teal w3-padding-large w3-hover-black" onclick="window.location.href='frases.html'"> Entrar</button>
-      </div>
-    </div>
+  <div class="back">
+  <a href="index.html">  <img src="images/logo2.PNG" width="15%"> </a>
   </div>
+  <!-- Overlay effect when opening sidebar on small screens -->
+  <div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
-  <!-- Second Photo Grid-->
-  <div class="w3-row-padding">
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/comida.png" alt="Algo" style="height:350px" class="w3-hover-opacity" onmouseover="play3()">
-      <div class="w3-container w3-white">
-        <p><b>Comida (Jídlo)</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <button onmouseover="play3()" class="w3-button w3-teal w3-padding-large w3-hover-black" onclick="window.location.href='comida.html'"> Entrar</button>
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main">
+
+    <!-- Header -->
+    <header id="Categorias">
+      <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+      <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+      <div class="w3-container">
+      <h1>Categorías</h1>
+    </header>
+
+    <!-- First Photo Grid-->
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+          <img src="images/animales.png" alt="Algo" style="height:300px" class="w3-hover-opacity" onmouseover="play2()">
+        <div class="w3-container w3-white">
+          <p><b>Animales (Zvířata)</b></p>
+          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <button onmouseover="play2()" class="button_selec" onclick="window.location.href='animales.html'"> Entrar</button>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="images/numerps.png" alt="Algo" style="height:300px" class="w3-hover-opacity" onmouseover="play7()">
+        <div class="w3-container w3-white">
+          <p><b>Numeros (Čísla)</b></p>
+          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <button onmouseover="play7()" class="button_selec" onclick="window.location.href='numeros.html'"> Entrar</button>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="images/frases.png" alt="Algo" style="height:300px" class="w3-hover-opacity" onmouseover="play5()">
+        <div class="w3-container w3-white">
+          <p><b>Frases Típicas (Typické fráze)</b></p>
+          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <button onmouseover="play5()" class="button_selec" onclick="window.location.href='frases.html'"> Entrar</button>
+        </div>
       </div>
     </div>
-    <div class="w3-third w3-container w3-margin-bottom">
-      <img src="images/hogar.png" alt="Algo" style="width:375px" class="w3-hover-opacity" onmouseover="play6()">
-      <div class="w3-container w3-white">
-        <p><b>Hogar (Domů)</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <button onmouseover="play6()" class="w3-button w3-teal w3-padding-large w3-hover-black" onclick="window.location.href='animales.html'"> Entrar</button>
+
+    <!-- Second Photo Grid-->
+    <div class="w3-row-padding">
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="images/comida.png" alt="Algo" style="height:350px" class="w3-hover-opacity" onmouseover="play3()">
+        <div class="w3-container w3-white">
+          <p><b>Comida (Jídlo)</b></p>
+          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <button onmouseover="play3()" class="button_selec" onclick="window.location.href='comida.html'"> Entrar</button>
+        </div>
+      </div>
+      <div class="w3-third w3-container w3-margin-bottom">
+        <img src="images/hogar.png" alt="Algo" style="width:375px" class="w3-hover-opacity" onmouseover="play6()">
+        <div class="w3-container w3-white">
+          <p><b>Hogar (Domů)</b></p>
+          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <button onmouseover="play6()" class="button_selec" onclick="window.location.href='hogar.html'"> Entrar</button>
+        </div>
+      </div>
+      <div class="w3-third w3-container">
+        <img src="images/deportes.png" alt="Algo" style="width:375px" class="w3-hover-opacity" onmouseover="play4()">
+        <div class="w3-container w3-white">
+          <p><b>Deportes (Sport)</b></p>
+          <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+          <button onmouseover="play4()" class="button_selec" onclick="window.location.href='deportes.html'"> Entrar</button>
+        </div>
       </div>
     </div>
-    <div class="w3-third w3-container">
-      <img src="images/deportes.png" alt="Algo" style="width:375px" class="w3-hover-opacity" onmouseover="play4()">
-      <div class="w3-container w3-white">
-        <p><b>Deportes (Sport)</b></p>
-        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-        <button onmouseover="play4()" class="w3-button w3-teal w3-padding-large w3-hover-black" onclick="window.location.href='animales.html'"> Entrar</button>
-      </div>
-    </div>
-  </div>
 
 
 
-<audio id="audio2" src="audio/Animales/Animales.ogg" ></audio>
-<audio id="audio3" src="audio/Comida/Comida.ogg" ></audio>
-<audio id="audio4" src="audio/Deportes/Deportes.ogg" ></audio>
-<audio id="audio5" src="audio/Frases tipicas/FrasesTipicas.ogg" ></audio>
-<audio id="audio6" src="audio/Hogar/Hogar.ogg" ></audio>
-<audio id="audio7" src="audio/Numeros/Numeros.ogg" ></audio>
-<script>
-// Script to open and close sidebar
-function w3_open() {
-    document.getElementById("mySidebar").style.display = "block";
-    document.getElementById("myOverlay").style.display = "block";
-}
+  <audio id="audio2" src="audio/Animales/Animales.ogg" ></audio>
+  <audio id="audio3" src="audio/Comida/Comida.ogg" ></audio>
+  <audio id="audio4" src="audio/Deportes/Deportes.ogg" ></audio>
+  <audio id="audio5" src="audio/Frases tipicas/FrasesTipicas.ogg" ></audio>
+  <audio id="audio6" src="audio/Hogar/Hogar.ogg" ></audio>
+  <audio id="audio7" src="audio/Numeros/Numeros.ogg" ></audio>
+  <script>
+  // Script to open and close sidebar
+  function w3_open() {
+      document.getElementById("mySidebar").style.display = "block";
+      document.getElementById("myOverlay").style.display = "block";
+  }
+  function w3_close() {
+      document.getElementById("mySidebar").style.display = "none";
+      document.getElementById("myOverlay").style.display = "none";
+  }
+  function play2(){
+         var audio = document.getElementById("audio2");
+         audio.play();
+                   }
+  function play3(){
+         var audio = document.getElementById("audio3");
+         audio.play();
+                   }
+  function play4(){
+         var audio = document.getElementById("audio4");
+         audio.play();
+                   }
+  function play5(){
+         var audio = document.getElementById("audio5");
+         audio.play();
+                   }
+  function play6(){
+         var audio = document.getElementById("audio6");
+         audio.play();
+                   }
+  function play7(){
+         var audio = document.getElementById("audio7");
+         audio.play();
+                   }
+  </script>
 
-function w3_close() {
-    document.getElementById("mySidebar").style.display = "none";
-    document.getElementById("myOverlay").style.display = "none";
-}
-function play2(){
-       var audio = document.getElementById("audio2");
-       audio.play();
-                 }
-function play3(){
-       var audio = document.getElementById("audio3");
-       audio.play();
-                 }
-function play4(){
-       var audio = document.getElementById("audio4");
-       audio.play();
-                 }
-function play5(){
-       var audio = document.getElementById("audio5");
-       audio.play();
-                 }
-function play6(){
-       var audio = document.getElementById("audio6");
-       audio.play();
-                 }
-function play7(){
-       var audio = document.getElementById("audio7");
-       audio.play();
-                 }
-
-</script>
-
-</body>
-</html>
+  </body>
+  </html>

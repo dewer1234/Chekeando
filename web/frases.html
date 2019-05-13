@@ -2,37 +2,60 @@
 <html lang="es-MX">
 <head>
     <meta charset="utf-8">
-    <meta name="description" content="relacionar columnas con botón" />
-    <meta name="author" content="Adib Abud Jaso"  />
-    <title>Relaciona las columnas</title>
-    <link rel="stylesheet" type="text/css" href="css/estilosRelacionarColumnasBoton.css">
+    <title>Frases</title>
+    <link rel="stylesheet" type="text/css" href="css/style-game.css">
     <script type="text/javascript" src="js/relacionarColumnasBoton.js"></script>
-    <title>Elige la opción correcta, recuerda que al pasar sobre la imagen puedes ayudarte para saber que palabra es.</title>
-</head>
+    <h1 > F r a s e s --  T í p i c a s </h1>
 <body>
-<h1 > F r a s e s --  T í p i c a s </h1>
+<div id="back">
+  <button class="sel2" onclick="window.location.href='index.html'">VOLVER AL INICIO</button>
+</div>
+
+  <div id="btncat">
+    <button class="sel" onclick="window.location.href='seleccion.html'"> Regresar </button>
+  </div>
+  <center>
+    <div id="inst">
+  <p> <b>Reglas:</b>
+    <br>
+    - Solo tendŕas 2 intentos por pregunta
+
+  <p> ¿Aún tienes dudas?, pulsa <b><a class="tuto" onclick="window.location.href='tutorial.html'">Aquí</b></a> para ver un tutorial .
+    <br>
+    <br>
+    <button class="jugar"> <a onclick="window.location.href='#main'">¡Jugar! </a></button>
+    <br>
+    <br>
+    <br>
+    <br>
+  </div>
+  <div class="back-juego">
+  <a href="index.html">  <img src="images/logo2.PNG" width="15%"> </a>
+
+    <button class="btn-in" onclick="window.location.href='#back'"> Reglas </button>
+  </div>
 <div id="main">
 
     <table class="tablaEjercicio">
         <tr>
 
-            <td> <img onmouseover="play2()"  src="css/images/hola.png" width="100px">         </td>
+            <td> <img onclick="play2()"  src="css/images/hola.png" width="100px">         </td>
             <td class="boton"><button></button></td>
             <td class="celdaRespuesta"> Ahoj</td>
         </tr>
         <tr>
 
-            <td> <img onmouseover="play3()" src="css/images/adios.png" width="100px">	 </td>
+            <td> <img onclick="play3()" src="css/images/adios.png" width="100px">	 </td>
             <td class="boton"><button></button></td>
             <td class="celdaRespuesta">nashledanou</td>
         </tr>
         <tr>
-            <td> <img onmouseover="play4()"  src="css/images/como.png" width="100px">	 </td>
+            <td> <img onclick="play4()"  src="css/images/como.png" width="100px">	 </td>
             <td class="boton"><button></button></td>
             <td class="celdaRespuesta">jak se máš</td>
         </tr>
         <tr>
-            <td> <img  onmouseover="play5()" src="css/images/bien.png" width="100px">	 </td>
+            <td> <img  onclick="play5()" src="css/images/bien.png" width="100px">	 </td>
             <td class="boton"><button></button></td>
             <td class="celdaRespuesta">dobrý</td>
         </tr>
@@ -67,7 +90,6 @@ function w3_open() {
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("myOverlay").style.display = "block";
 }
-
 function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
     document.getElementById("myOverlay").style.display = "none";
@@ -88,8 +110,6 @@ function play5(){
        var audio = document.getElementById("audio5");
        audio.play();
                  }
-
-
 </script>
 
 

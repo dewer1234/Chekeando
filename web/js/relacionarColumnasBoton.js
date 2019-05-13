@@ -3,6 +3,8 @@
             "opcionIncorrectaTerminoIntentos":"Incorrecto, intenta con la siguiente pregunta.",
             "retroFinal":"Terminaste. Obtuviste %BUENAS% de %TOTAL%."
         };
+        var audioError = new Audio('audio/Otros/Error.ogg');
+        var audioExito = new Audio('audio/Otros/Exito.ogg');
         window.addEventListener("load", function(e){
             var MAX_INTENTOS_POR_PREGUNTA = 2;
             var filasReactivos = document.querySelectorAll(".tablaEjercicio tr");
@@ -74,12 +76,14 @@
                     bInterno.innerHTML = String(preguntaActivaNum + 1);
                     bInterno.disabled = true;
                     e.currentTarget.removeEventListener("click", alApretarOpcion, false);
+                    audioExito.play();
                     e.currentTarget.className += " contestada";
                     pasarSiguientePregunta();
                 } else {
                     console.log("mal");
                     //e.currentTarget.className = "usado";
                     retro.mostrar(mensajes["opcionIncorrecta"]);
+                    audioError.play();
                     if(++currentIntento >= MAX_INTENTOS_POR_PREGUNTA){
                         filaActiva.querySelector("td").className = "contestada mal";
                         retro.mostrar(mensajes["opcionIncorrectaTerminoIntentos"]);
