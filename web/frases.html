@@ -8,7 +8,7 @@
     <h1 > F r a s e s --  T í p i c a s </h1>
 <body>
   <div id="back">
-  <a href="index.html">  <img src="images/logo2.PNG" width="15%"> </a>
+  <a href="index.html">  <img src="images/logoc.png" width="15%"> </a>
   </div>
 
   <div id="btncat">
@@ -20,13 +20,8 @@
     <br>
     - Solo tendŕas 2 intentos por pregunta
 
-  <p ><b> Instrucciones:</b>
-    <br>
-    Al pasar el mouse por la imagen escucharas un sonido,
-    <br>
-    el objetivo es que relaciones el sonido
-    de la imagen con alguna de las opciones que hay a un lado . </p>
-  <p> ¿Aún tienes dudas?, pulsa <b><a class="tuto" onclick="window.location.href='tutorial.html'">Aquí</b></a> para ver un tutorial .
+
+  <p> ¿Aún tienes dudas?, pulsa <b><button class="tuto" onclick="window.location.href='tutorial.html'">Aquí</b></button> para ver un tutorial .
     <br>
     <br>
     <button class="jugar"> <a onclick="window.location.href='#main'">¡Jugar! </a></button>
@@ -35,39 +30,41 @@
     <br>
     <br>
   </div>
-  <div class="back-juego">
-  <a href="index.html">  <img src="images/logo2.PNG" width="15%"> </a>
 
-    <button class="btn-in" onclick="window.location.href='#back'"> Instrucciones </button>
+  <div class="back-juego">
+  <a href="index.html">  <img src="images/logoc.png" width="15%"> </a>
+
+    <button class="btn-in" onclick="window.location.href='tutorial.html'"> Tutorial </button>
   </div>
 <div id="main">
 
     <table class="tablaEjercicio">
         <tr>
 
-            <td> <img onmouseover="play2()"  src="css/images/hola.png" width="100px">         </td>
+            <td> <img onClick="play2()"  src="css/images/hola.png" width="100px">         </td>
             <td class="boton"><button></button></td>
             <td class="celdaRespuesta"> Ahoj</td>
         </tr>
         <tr>
 
-            <td> <img onmouseover="play3()" src="css/images/adios.png" width="100px">	 </td>
+            <td> <img onClick="play3()" src="css/images/adios.png" width="100px">	 </td>
             <td class="boton"><button></button></td>
             <td class="celdaRespuesta">nashledanou</td>
         </tr>
         <tr>
-            <td> <img onmouseover="play4()"  src="css/images/como.png" width="100px">	 </td>
+            <td> <img onClick="play4()"  src="css/images/como.png" width="100px">	 </td>
             <td class="boton"><button></button></td>
             <td class="celdaRespuesta">jak se máš</td>
         </tr>
         <tr>
-            <td> <img  onmouseover="play5()" src="css/images/bien.png" width="100px">	 </td>
+            <td> <img  onClick="play5()" src="css/images/bien.png" width="100px">	 </td>
             <td class="boton"><button></button></td>
             <td class="celdaRespuesta">dobrý</td>
         </tr>
 
     </table>
     <input id="botonReiniciar" type="button" value="Otra vez" class="btn_reiniciar" />
+        <input id="volver" type=button value=Salir class="btn-salir" onclick="window.location.href='index.html'"/>
     <div class="dialog-background" id="retroFinal" style="display: none;">
     <div class="dialog-loading-wrapper">
         <div class="dialog-loading-icon">

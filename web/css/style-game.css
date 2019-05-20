@@ -35,14 +35,19 @@
             right: 45px;*/
         }
         #boton_reiniciar{
-            width: 0;
-            visibility: hidden;
-            color: rgba(210, 80, 0, .9);
-            background: #EEC47B;
+          font-family: 'Amatic SC', cursive;
+          font-size: 35px;
+          position: relative;
+          background: #ffffff;
+          border: 4px solid #093492 !important;
+          color: #CF0A0C;
         }
         #boton_reiniciar:hover {
-            color: rgba(255, 50, 0, .9);
-			background: #EEC47B;
+          font-size: 35px;
+          border-radius: 50px;
+          color: #DA8D0E !important;
+          background: #ffffff;
+          border-color: #F7CF19 !important;
         }
         div.retroalimentacion {
             position: absolute;
@@ -100,7 +105,7 @@
                 background-color: #B0C4DE;
             }
             table{
-                line-height: 1.1em;
+                line-height: 1em;
             }
             .DropTarget{
                 margin: 0;
@@ -136,9 +141,8 @@
             color: #B6B6B6;
         }
         table td.activa{
-            background-color: #B0C4DE;
+            background-color: 	#CD5C5C;
             color: #B22222;
-			border-bottom: solid 1px #B22222;
 			font-weight:bolder;
         }
         table td.contestada{
@@ -248,7 +252,7 @@
   }
 
   #back{
-    margin-left: 5%;
+    margin-left: 1%;
     margin-top: -18%;
 
   }
@@ -261,7 +265,7 @@
 
   #btncat{
     margin-left: 90%;
-    margin-top: -4%;
+    margin-top: -5%;
   }
 
   button.sel{
@@ -293,6 +297,23 @@
     border: 4px solid #093492 !important;
     color: #CF0A0C;
   }
+  .btn-salir:hover{
+    font-size: 35px;
+    border-radius: 50px;
+    color: #DA8D0E !important;
+    background: #ffffff;
+    border-color: #F7CF19 !important;
+  }
+
+  .btn-salir{
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    position: relative;
+    background: #ffffff;
+    border: 4px solid #093492 !important;
+    color: #CF0A0C;
+  }
+
 
   .jugar{
     font-family: 'Amatic SC', cursive;
@@ -347,16 +368,21 @@
       color: #CD5C5C;
   }
 	.btn_reiniciar{
-		background: #f0ad77;
-		width:100px;
-		height:60px;
-		color:#ffffff;
-		border:0;
-		cursor:pointer;
-		margin: 20px auto;
-		font-size:18px;
-		border-radius:5px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 35px;
+    position: relative;
+    background: #ffffff;
+    border: 4px solid #093492 !important;
+    color: #CF0A0C;
 	}
+
+  .btn_reiniciar:hover{
+    font-size: 35px;
+    border-radius: 50px;
+    color: #DA8D0E !important;
+    background: #ffffff;
+    border-color: #F7CF19 !important;
+  }
 
 .animals{
   margin-left: 7%;

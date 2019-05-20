@@ -3,17 +3,42 @@
 body {
   margin: 0;
   font-family: "Roboto", "Helvetica Neue", "Helvetica",  "Arial", sans-serif;
+
 }
 
 
 .fantasy{
-  font-family: fantasy, fantasy;
-  font-size: 100px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 120px;
   color: midnightblue;
   margin-left: 33%;
   margin-top:-10%;
 }
 
+#btncat{
+  margin-left: 83%;
+  margin-top: -4%;
+}
+button.sel{
+  weight: 75px;
+  height: 75px;
+}
+
+.sel:hover{
+  font-size: 35px;
+  border-radius: 50px;
+  color: #DA8D0E !important;
+  background: #ffffff;
+  border-color: #F7CF19 !important;
+}
+.sel{
+  font-family: 'Amatic SC', cursive;
+  font-size: 35px;
+  position: relative;
+  background: #ffffff;
+  border: 4px solid #093492 !important;
+  color: #CF0A0C;
+}
 #categorias h1 {
   font-family: fantasy, fantasy;
   font-size: 100px;
@@ -158,14 +183,15 @@ margin-top: -1%;
 margin-bottom: -4%;
 }
 .imagen{
-  width: 940px;
-  height: 200px;
+  width: 70%;
+  height: 100%;
   margin: 50px auto;
   position: relative;
   margin-bottom: 0px;
+  padding-top: -50%;
   left: 15%;
   right: -50%;
-  opacity: 0.9;
+
 }
 .avatar{
   width: 400px;
@@ -187,13 +213,14 @@ margin-bottom: -4%;
   padding: 15px 25px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 30px;
   cursor: pointer;
   display: inline-block;
   margin: 0.5%;
   left: 41.5%;
   right: -50%;
   border-radius: 5px;
+  font-family: 'Amatic SC', cursive;
 }
 
 .button:hover {
@@ -214,7 +241,7 @@ transition: all 0.3s ease 0s;
   padding: 15px 25px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 16px;
+  font-size: 30px;
   cursor: pointer;
   display: block;
   margin: 0.5%;
@@ -223,6 +250,7 @@ transition: all 0.3s ease 0s;
   margin-top: 2%;
   margin-bottom: 2%;
   border-radius: 5px;
+            font-family: 'Amatic SC', cursive;
 }
 
 .button2:hover {
@@ -313,7 +341,7 @@ transition: all 0.3s ease 0s;
   background-color:black;
   font-size:15px;
   line-height:24px;
-  color:#737373;
+  color:#73737;
   opacity:0.9;
 }
 .site-footer hr
@@ -400,6 +428,9 @@ transition: all 0.3s ease 0s;
     text-align:center
   }
 }
+#back{
+margin-left: 1%;
+margin-top: 1 %;}
 
 .textoImagenes{
   font-family: 'The Girl Next Door', cursive;
