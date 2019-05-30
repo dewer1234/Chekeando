@@ -15,6 +15,14 @@ body {
   margin-top:-10%;
 }
 
+.tuto{
+  font-family: 'Amatic SC', cursive;
+  font-size: 120px;
+  color: midnightblue;
+  margin-left: 33%;
+  margin-top:-15%;
+}
+
 #btncat{
   margin-left: 83%;
   margin-top: -4%;
